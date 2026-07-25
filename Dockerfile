@@ -24,9 +24,8 @@ RUN pip install --no-cache-dir -r /tmp/requirements.txt
 # Copiamos los Custom Components dentro de la imagen
 COPY components /app/components
 
-# Copiamos y damos permisos al entrypoint
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+# Copiamos el entrypoint con permisos de ejecución
+COPY --chmod=+x entrypoint.sh /entrypoint.sh
 
 EXPOSE 7860
 
