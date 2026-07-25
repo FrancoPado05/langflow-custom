@@ -1,0 +1,10 @@
+# Dependencias adicionales para Langflow
+# Estas se instalan ENCIMA de las que ya trae la imagen oficial.
+# No incluyas "langflow" acá, ya viene en la imagen base.
+#
+# Descomentá lo que necesites, por ejemplo:
+#
+# requests>=2.31.0
+# python-dotenv>=1.0.0
+# twilio>=8.10.0          # si vas a integrar WhatsApp vía Twilio
+# pandas>=2.0.0           # si vas a procesar datos
