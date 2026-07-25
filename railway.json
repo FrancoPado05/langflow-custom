@@ -1,0 +1,6 @@
+{
+  "deploy": {
+    "healthcheckPath": "/health_check",
+    "healthcheckTimeout": 300
+  }
+}
