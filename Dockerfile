@@ -2,7 +2,7 @@
 # Build reproducible y production-ready
 # Base: imagen oficial de Langflow
 
-FROM langflowai/langflow:1.10.0
+FROM langflowai/langflow:1.12.5
 
 # Metadatos
 LABEL description="Langflow with Custom Components support"
